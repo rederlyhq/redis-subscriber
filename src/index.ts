@@ -44,7 +44,7 @@ server.register(router);
 const start = async () => {
     try {
         console.log('Starting server');
-        await server.listen(3000, '0.0.0.0');
+        await server.listen(3009, '0.0.0.0');
 
         const address = server.server.address();
         const addressStr = typeof address === 'string' ? address : address?.address;
